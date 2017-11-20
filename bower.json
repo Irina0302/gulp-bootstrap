@@ -1,0 +1,12 @@
+{
+  "name": "create-agency-bootstrap",
+  "description": "create-agency-bootstrap",
+  "main": "gulpfile.js",
+  "author": "Ira",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+
+}

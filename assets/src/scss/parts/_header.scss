@@ -1,0 +1,17 @@
+.header {
+  &__container {
+    @include make-container();
+    @include make-container-max-widths();
+  }
+  &__row {
+    @extend .row;
+    @extend  .no-gutters;
+  }
+  &__logo {
+    @include make-col(3);
+
+  }
+  &__nav {
+    @include make-col(9);
+  }
+}
